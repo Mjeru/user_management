@@ -17,6 +17,7 @@ const App = () => {
         <div>
             <UsersContext.Provider value={{usersList, setUsersList}}>
                 <Content>
+                    <h1>User Management</h1>
                     <Form/>
                     <Table/>
                 </Content>

@@ -19,6 +19,7 @@ export function Form() {
         <>
             <form action="" onSubmit={submitHandler} className={styles.form}>
                 <input type={"text"} name={"name"} placeholder={'Имя'} value={name} required
+                       autoFocus={true}
                        onChange={(ev) => {
                            setName(ev.target.value)
                        }}
